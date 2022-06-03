@@ -62,16 +62,10 @@ const validateBaseLayersInDockerfileImage = (baseLayers, layerToCompare) => {
 
 const validateCmdInput = ({ stdout: configCmd }) => configCmd.includes('npm') && configCmd.includes('start');
 
-const verifyBollean = (params) => {
-  if(params === 'true') return true;
-  return false;
-}
-
 module.exports = {
   delay,
   exec,
   validateBaseLayersInDockerfileImage,
   validateCmdInput,
   setupImageForTest,
-  verifyBollean
 };
