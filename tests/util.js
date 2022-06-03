@@ -52,7 +52,7 @@ const setupImageForTest = async () => {
     dockerfileImageCmd
   ];
 };
-
+//
 const validateBaseLayersInDockerfileImage = (baseLayers, layerToCompare) => {
   const nodeLayers = formatLayersToArray(baseLayers);
 
