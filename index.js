@@ -21,12 +21,18 @@ const strangerThingsRepository = new StrangerThingsRepository(
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
+  if (hereIsTheUpsideDown === 'true') { 
+    const characters = strangerThingsService.search(
+      req.query,
+      true,
+    );
+    return res.status(200).json(characters);
+  }
   const characters = strangerThingsService.search(
     req.query,
-    hereIsTheUpsideDown,
+    false,
   );
-
-  res.status(200).json(characters);
+  return res.status(200).json(characters);
 });
 
 app.listen(PORT, () => {
