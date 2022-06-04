@@ -18,7 +18,6 @@ const strangerThingsRepository = new StrangerThingsRepository(
     
     app.use(cors());
     const hereIsTheUpsideDown = process.env.UPSIDEDOWN_MODE;
-    // const params = verifyBollean(hereIsTheUpsideDown);
 
 const PORT = process.env.PORT || 3000;
 
