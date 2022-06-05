@@ -1,9 +1,17 @@
 # Boas vindas ao repositório backend do projeto de Deploy - Stranger Things!
+---
+# Project Stranger Things
+### Projeto realizado como estudante na [Trybe](https://www.betrybe.com/).
+### As API Back-End foram feitas por pessoas especialistas da [Trybe](https://www.betrybe.com/).
+---
 
-Aqui você vai encontrar os locais para colocar suas repostas relativas aos requisitos de backend.
+# Habilidades
 
-**Lembre-se**: coloque as respostas apenas dos requisitos que contém o seguinte direcionamento:
+- Fazer deploy das API no [Heroku](https://dashboard.heroku.com/) 
 
-  - Adicione os comandos utilizados, de maneira sequencial, ao README do backend.
+--- 
 
-**Nota**: Este direcionamento está presente no [repositório](https://github.com/tryber/sd-017-stranger-things) em que os requisitos do projeto são destrinchados.
+# Links
+
+- API de [Stranger Things](https://airamtoscano-up.herokuapp.com) 
+- API Mundo Invertido do [Stranger Things](https://airamtoscano-dw.herokuapp.com/)
