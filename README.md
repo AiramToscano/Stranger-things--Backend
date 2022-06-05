@@ -8,7 +8,7 @@
 # Habilidades
 
 - Fazer deploy das API no [Heroku](https://dashboard.heroku.com/) 
-- Utilizar o Dockerfile para fazer o deploy
+- Utilizar o Dockerfile para fazer o deploy no Heroku.
 
 --- 
 
