@@ -8,6 +8,7 @@
 # Habilidades
 
 - Fazer deploy das API no [Heroku](https://dashboard.heroku.com/) 
+- Utilizar o DockerFile para fazer o deploy
 
 --- 
 
